@@ -11,6 +11,7 @@
     "@storybook/blocks": "^7.5.3",
     "@storybook/web-components": "^7.5.3",
     "@storybook/web-components-vite": "^7.5.3",
+    "chromatic": "^7.6.0",
     "lerna": "7.4.2",
     "lit": "^3.0.2",
     "react": "^18.2.0",
@@ -19,6 +20,10 @@
   },
   "scripts": {
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
-  }
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_21f9a56ac958385"
+  },
+  "version": "",
+  "readme": "ERROR: No README data found!",
+  "_id": "storybook-stories-defect@"
 }

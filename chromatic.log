@@ -1,0 +1,125 @@
+
+Chromatic CLI v7.6.0
+https://www.chromatic.com/docs/cli
+
+Authenticating with Chromatic
+    → Connecting to https://index.chromatic.com
+Authenticated with Chromatic
+    → Using project token '****************8385'
+Retrieving git information
+✖ Found only one commit
+This typically means you have ran into one of the following scenarios:
+- You've checked out a shallow copy of the Git repository, which some CI systems do by default.
+  In order for Chromatic to correctly determine baseline commits, we need access to the full Git history graph.
+  Refer to your CI provider's documentation for details.
+- You've only made a single commit so far.  
+  Please make at least one additional commit in order for Chromatic to be able to detect what's changed.
+Retrieved git information
+    → Commit '4c79ee4' on branch 'main'; no ancestor found
+Collecting Storybook metadata
+Collected Storybook metadata
+    → Storybook 7.5.3 for Web Components; no supported addons found
+Initializing build
+Initialized build
+    → Build 1 initialized
+Building your Storybook
+    → Running command: pnpm run build-storybook --output-dir /var/folders/gg/7xvmlf391_n24bhs56gk0005xwzqfk/T/chromatic--30856-t5ESwhtKtgh9
+Storybook built in 24 seconds
+    → View build log at /Users/ctw02523/personal/storybook-stories-defect/build-storybook.log
+Publish your built Storybook
+    → Validating Storybook files
+Publishing your built Storybook
+    → Retrieving target location
+    → Starting publish
+    → [                    ] 0%
+    → [                    ] 2%
+    → [=                   ] 3%
+    → [=                   ] 4%
+    → [=                   ] 7%
+    → [==                  ] 9%
+    → [==                  ] 10%
+    → [==                  ] 12%
+    → [===                 ] 14%
+    → [===                 ] 16%
+    → [===                 ] 17%
+    → [====                ] 19%
+    → [====                ] 22%
+    → [=====               ] 24%
+    → [=====               ] 26%
+    → [=====               ] 27%
+    → [======              ] 29%
+    → [======              ] 31%
+    → [=======             ] 33%
+    → [=======             ] 34%
+    → [=======             ] 35%
+    → [=======             ] 36%
+    → [=======             ] 37%
+    → [========            ] 38%
+    → [========            ] 39%
+    → [========            ] 40%
+    → [========            ] 41%
+    → [========            ] 42%
+    → [=========           ] 43%
+    → [=========           ] 45%
+    → [=========           ] 46%
+    → [==========          ] 48%
+    → [==========          ] 49%
+    → [==========          ] 50%
+    → [==========          ] 51%
+    → [==========          ] 52%
+    → [===========         ] 53%
+    → [===========         ] 54%
+    → [===========         ] 55%
+    → [===========         ] 56%
+    → [===========         ] 57%
+    → [============        ] 59%
+    → [============        ] 60%
+    → [============        ] 61%
+    → [=============       ] 63%
+    → [=============       ] 64%
+    → [=============       ] 65%
+    → [=============       ] 66%
+    → [=============       ] 67%
+    → [==============      ] 68%
+    → [==============      ] 69%
+    → [==============      ] 72%
+    → [===============     ] 74%
+    → [===============     ] 76%
+    → [================    ] 79%
+    → [================    ] 81%
+    → [=================   ] 83%
+    → [=================   ] 84%
+    → [=================   ] 87%
+    → [==================  ] 88%
+    → [==================  ] 91%
+    → [==================  ] 92%
+    → [=================== ] 94%
+    → [=================== ] 95%
+    → [=================== ] 97%
+    → [====================] 98%
+    → [====================] 99%
+    → [====================] 100%
+Publish complete in 22 seconds
+    → View your Storybook at https://654a6016d95b5229bf2bdeb1-daarfnmlph.chromatic.com
+Verifying your Storybook
+    → This may take a few minutes
+Started build 1
+    → Continue setup at https://www.chromatic.com/setup?appId=654a6016d95b5229bf2bdeb1
+Running 14 tests
+    → This may take a few minutes
+ℹ Speed up Continuous Integration
+Your project is linked to GitHub so Chromatic will report results there.
+This means you can pass the --exit-once-uploaded flag to skip waiting for build results.
+Read more here: https://www.chromatic.com/docs/cli#chromatic-options
+    → [=                   ] 1/14  Button › Primary 
+    → [===                 ] 2/14  Button › Secondary 
+    → [====                ] 3/14  Button › Large 
+    → [=============       ] 9/14  Header › Logged In 
+    → [==============      ] 10/14  Header › Logged Out 
+✔ Build passed. Welcome to Chromatic!
+We found 6 components with 14 stories and took 14 snapshots.
+ℹ Please continue setup at https://www.chromatic.com/setup?appId=654a6016d95b5229bf2bdeb1
+Build 1 auto-accepted
+    → Tested 14 stories across 6 components; captured 14 snapshots in 20 seconds
+
+
